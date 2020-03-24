@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 
-
           $("#burger").click(function(event){
                $("#supermenu").addClass('ok'),
                $("#agenda").removeClass('ok').addClass('ko'),
@@ -10,7 +9,8 @@ $(document).ready(function(){
                $("#don").removeClass('ok').addClass('ko'),
                $("#chant").removeClass('ok').addClass('ko'),
                $("#priere").removeClass('ok').addClass('ko'),
-               $("#actu").removeClass('ok').addClass('ko')
+               $("#actu").removeClass('ok').addClass('ko'),
+               $("#cb").removeClass('ok').addClass('ko')
 
           });
 
@@ -44,6 +44,16 @@ $(".btn").click(function(event){
      $("#don").removeClass('ko').addClass('ok');
         
    }),
+
+   $("#don_cb").click(function(event){
+     $("#supermenu").removeClass('ok').addClass('ko'),
+     $("#don").removeClass('ok').addClass('ko'),
+     $("#cb").removeClass('ko').addClass('ok');     
+   }),
+
+   $("btnCb").click(function(event){
+     $("#actu").removeClass('ok').addClass('ko')
+     }),
 
    $("#m-chant").click(function(event){
      $("#supermenu").removeClass('ok').addClass('ko'),

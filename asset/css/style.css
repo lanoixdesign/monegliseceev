@@ -3,7 +3,6 @@
   padding: 0; }
 
 body {
-  height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #1d0e8e;
   background: linear-gradient(174deg, #1d0e8e 0%, #00aaff 100%);
@@ -56,10 +55,11 @@ section:nth-of-type(2) {
   background-color: #10028d;
   color: white;
   width: 35%;
-  margin-top: 1%; }
+  margin-top: 1%;
+  font-weight: bold; }
 
 #burger {
-  border: solid 1px gray;
+  border: solid 1px rgba(0, 0, 0, 0.329);
   border-radius: 5px;
   height: 30px;
   width: 30px;
@@ -67,6 +67,8 @@ section:nth-of-type(2) {
   margin-right: 2%;
   flex-direction: column;
   align-items: center; }
+  #burger:hover {
+    border: solid 1px black; }
   #burger li {
     border-bottom: solid 3px black;
     margin-bottom: 5px; }
@@ -82,8 +84,8 @@ section:nth-of-type(2) {
       border-radius: 5px;
       height: auto;
       background-color: white;
-      padding: 3%;
-      margin: 3%;
+      padding: 5%;
+      margin: 4%;
       -webkit-box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.452);
       /* Safari 3-4, iOS 4.2px.2 - 4.2, Android 2.3+ */
       -moz-box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.452);
@@ -93,9 +95,9 @@ section:nth-of-type(2) {
       #grid ul li:active {
         transform: scale(0.97); }
       #grid ul li:hover {
-        background-color: #fdf5dc; }
+        background-color: #fffcf4; }
       #grid ul li div {
-        width: 10%; }
+        width: 20%; }
 
 li {
   list-style: none; }
@@ -166,7 +168,7 @@ li {
   .box:active {
     transform: scale(0.97); }
   .box:hover {
-    background-color: #fdf5dc; }
+    background-color: #fffcf4; }
 
 .border {
   border: solid 1px gray;
@@ -182,5 +184,49 @@ li {
 .warning {
   color: #ff9100;
   font-weight: 700; }
+
+.box_cb {
+  border-radius: 5px;
+  height: auto;
+  background-color: white;
+  padding: 3%;
+  margin: 3%;
+  -webkit-box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.452);
+  /* Safari 3-4, iOS 4.2px.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.452);
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.452);
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+
+form div {
+  margin: 3%; }
+
+.nbrCard {
+  background-color: #ebfcf4;
+  border-bottom-left-radius: 5px;
+  border-bottom: solid 1px blueviolet; }
+  .nbrCard:hover {
+    background-color: white; }
+
+.montant {
+  background-color: #ebfcf4;
+  border-width: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom: solid 1px blueviolet;
+  height: 20px;
+  margin-left: 2%; }
+  .montant:hover {
+    background-color: white; }
+
+.btnCb {
+  padding: 2%;
+  border-radius: 5px;
+  background-color: #10028d;
+  color: white;
+  width: 35%;
+  margin-top: 1%;
+  font-weight: bold; }
+  .btnCb:hover {
+    background-color: #00aa00; }
 
 /*# sourceMappingURL=style.css.map */

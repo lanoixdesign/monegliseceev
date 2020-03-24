@@ -70,6 +70,10 @@
             <?php include_once('common/_don.php');?>
         </div>
 
+        <div id="cb" class="ko">
+            <?php include_once('paiement/index.php');?>
+        </div>
+
         <div id="chant" class="ko">
             <?php include_once('common/_chant.php');?>
         </div>

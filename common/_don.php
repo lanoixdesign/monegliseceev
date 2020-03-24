@@ -1,8 +1,8 @@
 
-    <div class="box flex-align">
-        <btn class="border">
+    <div id="don_cb" class="box flex-align">
+        <div class="border">
             <h4>CB</h4>
-    </btn>
+        </div>
         <div>
             <h3>CB 3D Secure</h3>
             <p>À venir...</p>

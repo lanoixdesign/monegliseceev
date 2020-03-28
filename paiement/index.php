@@ -7,7 +7,7 @@
     </div>
     <div>
         <!-- Formulaire CB -->
-        <form action="paiement.php" class="ui form " id="payment_form" method="post">
+        <form action="paiement/paiement.php" class="ui form " id="payment_form" method="post">
             <div class="form-row ">
                 <label for="card-element">
                     Entrez un numéro de carte valide
@@ -32,7 +32,7 @@
     <script type="text/javascript" src="https://js.stripe.com/v3/"></script>
     <script>
         <!-- Clé publique de Stripe -->
-        var stripe = Stripe('pk_test_GzU8mEckQvhu2PZuARoSXYLU00DnBkEDDl');
+        var stripe = Stripe('pk_live_ZPyV2aShvhIIGRki1Zfgq9tz006PQE4ihK');
         var elements = stripe.elements();
 
         var style = {

@@ -5,12 +5,12 @@
         </div>
         <div>
             <h3>CB 3D Secure</h3>
-            <p>À venir...</p>
+           <p>À venir...</p>
         </div>
     </div>
 
     <div class="box flex-align">
-    <div class="border">
+        <div class="border">
             <h4>Paypal</h4>
         </div>
         <div>

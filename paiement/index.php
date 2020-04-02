@@ -25,6 +25,12 @@
                     <input class="montant" type="text" size="" name="montant">
                 </label>
             </div>
+            <div class="form-row">
+                <label>
+                    <span>Nom</span>
+                    <input class="nom" type="text" size="" name="nom" placeholder="Facultatif">
+                </label>
+            </div>
             <button class="btnCb" type="submit"> VALIDER </button>
         </form>
     </div>

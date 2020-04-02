@@ -3,20 +3,31 @@ require 'vendor/autoload.php';
 $key = require ('config.php');
 
     $solde = $_POST['montant'];
+    $nomClient = $_POST['nom'];
     if (!empty($solde) && is_numeric($solde)) {
         try {
             \Stripe\Stripe::setApiKey($key['key']);
 
             \Stripe\Customer::create(array(
                 "description" => 'client',
-                "email" => "contact@ceev.fr"
-            ));
+                "email" => "contact@ceev.fr",
 
-            $Charge = \Stripe\Charge::create(array(
-                "amount" => $solde * 100,
-                "currency" => "eur",
-                "source" => $_POST['stripeToken'],
             ));
+            if (!empty($nomClient)){
+                $Charge = \Stripe\Charge::create(array(
+                    "amount" => $solde * 100,
+                    "currency" => "eur",
+                    "description" => $nomClient,
+                    "source" => $_POST['stripeToken'],
+                ));
+            } else {
+                $Charge = \Stripe\Charge::create(array(
+                    "amount" => $solde * 100,
+                    "currency" => "eur",
+                    "source" => $_POST['stripeToken'],
+                ));
+            }
+
             require 'messageValider.php';
 
         } catch(\Stripe\Exception\CardException $e) {

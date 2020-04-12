@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+     $('#capsule').delay(1100).fadeOut();
 
           $("#burger").click(function(event){
                $("#supermenu").addClass('ok'),
@@ -26,11 +26,11 @@ $(".btn").click(function(event){
         
    }),
 
-//    $("#m-live").click(function(event){
-//      $("#supermenu").removeClass('ok').addClass('ko'),
-//      $("#live").removeClass('ko').addClass('ok');
-        
-//    }),
+     //    $("#m-live").click(function(event){
+     //      $("#supermenu").removeClass('ok').addClass('ko'),
+     //      $("#live").removeClass('ko').addClass('ok');
+          
+     //    }),
 
 
    $("#m-info").click(function(event){
@@ -65,7 +65,15 @@ $(".btn").click(function(event){
      $("#supermenu").removeClass('ok').addClass('ko'),
      $("#priere").removeClass('ko').addClass('ok');
         
+   }),
+
+
+   $(".accordeon").click(function(event){
+    $(this).css('height','auto');
+      
    })
+
+
  });
 
 //  if( $("#supermenu").hasClass('ok')==true || $("#supermenu").hasClass('')==true ){

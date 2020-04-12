@@ -1,4 +1,3 @@
-
 <div class="box_cb">
 
 
@@ -8,43 +7,47 @@
     <div>
         <!-- Formulaire CB -->
         <form action="paiement/paiement.php" class="ui form " id="payment_form" method="post">
+
+            <div class="form-row">
+                <label>
+                    <span>Entrez votre Nom</span>
+                    <input class="nom inputNom" type="text" size="" name="nom" placeholder="Facultatif">
+                </label>
+            </div>
+            <hr class="hrOpac">
+
             <div class="form-row ">
                 <label for="card-element">
-                    Entrez un numéro de carte valide
+                    Entrez un Numéro de carte valide
                 </label>
-
                 <div id="card-element" class="nbrCard">
                     <!-- Stripe va ajouter un formulaire de carte bancaire ici -->
                 </div>
                 <div id="card-errors" role="alert"></div>
             </div>
-
             <div class="form-row">
                 <label>
-                    <span>Montant</span>
+                    <span>Entrez un Montant</span>
                     <input class="montant" type="text" size="" name="montant">
                 </label>
             </div>
+            
             <button class="btnCb" type="submit"> VALIDER </button>
         </form>
     </div>
-
     <script type="text/javascript" src="https://js.stripe.com/v3/"></script>
     <script>
         <!-- Clé publique de Stripe -->
         var stripe = Stripe('pk_live_ZPyV2aShvhIIGRki1Zfgq9tz006PQE4ihK');
         var elements = stripe.elements();
-
         var style = {
             base: {
                 fontSize: '16px',
                 color:"#32325d",
             }
         };
-
         var card = elements.create('card', {style:style});
         card.mount('#card-element');
-
         card.addEventListener('change',function (event) {
             var displayError = document.getElementById('card-errors');
             if(event.error) {
@@ -77,6 +80,4 @@
             form.submit();
         }
     </script>
-
-
 </div>

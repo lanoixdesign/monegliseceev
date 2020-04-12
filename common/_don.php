@@ -4,8 +4,10 @@
             <h4>CB</h4>
         </div>
         <div>
-            <h3>CB 3D Secure</h3>
-           <p>À venir...</p>
+            <div class="notifOk">ok</div>
+            <h3>Paiement en ligne par CB</h3>
+           <!--p>Service Disponible</p-->
+           <p>Service Disponible</p>
         </div>
     </div>
 
@@ -19,15 +21,6 @@
         </div>
     </div>
 
-    <div class="box flex-align">
-        <div class="border">
-            <h4>Cagnotte</h4>
-        </div>
-        <div>
-            <h3>Le Pot Commun</h3>
-            <p><a href="https://www.lepotcommun.fr/pot/axdgw8ut" target="_blank"> Cagnotte "Le Pot Commun"</a></p>
-        </div>
-    </div>
 
     <div class="box flex-align">
         <div class="border">

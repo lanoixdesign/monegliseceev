@@ -1,55 +1,151 @@
 
-    <div class="box flex-align">
+
+    <div class="box flex-align annonce">
         <div class="border">
-            <h4>27 au 29 mars 2020</h4>
+            <h4>
+                jeudi 9 avril
+
+            </h4>
         </div>
         <div>
-            <h3>Conférence reportée</h3>
-            <p>Suite aux mesures prises par le gouvernement, la conférence prévue du 27 au 29 Mars sur l'indépendance financière avec le révérend Raoul WAFO est reportée</p>
+            <h3>
+                CEEV FMD
+            
+            </h3>
+            <p>
+                Réunion mensuelle des CEEV Femmes Multidimensionnelles, de 19h30 à 21h30
+            
+            </p>
         </div>
     </div>
 
-    <div class="box flex-align">
+    <div class="box flex-align annonce">
         <div class="border">
-            <h4>23 au 25 avril 2020</h4>
+            <h4>
+            samedi 11 avril
+
+            </h4>
         </div>
         <div>
-            <h3>Conférence reportée</h3>
-            <p>La Conférence Internationale des Femmes Multidimensionnelles et le gala prévus du 23 au 25 avril sont également reportés.</p>
+            <h3>
+            Atelier du groupe des célibataire
+            
+            </h3>
+            <p>
+            À 17h30 : Atelier du groupe des célibataires de + de 25 ans «  les abigael », avec les diaconesse Fanny et Erika.
+            
+            </p>
         </div>
     </div>
 
-    <div class="box flex-align">
+    <div class="box flex-align annonce">
         <div class="border">
-            <h4>Tous les jours
-</h4>
+            <h4>
+               
+            Tous les dimanches
+            </h4>
         </div>
         <div>
-            <h3>RJEC</h3>
-            <p>Nous rappelons que tous les jeunes sont en jeûne de minuit à 18h, et se retrouvent de minuit à 1h pour une offensive de prière tous les jours.</p>
-        </div>
-    </div>
-
-    <div class="box flex-align">
-        <div class="border">
-            <h4>Dimanche 29 mars 2020</h4>
-        </div>
-        <div>
-            <h3>Culte dominical </h3>
-            <p>Dimanche prochain, nous vous attendons pour notre culte en live.
-Rendez-vous à 11h comme chaque dimanche  sur notre chaîne YouTube.
-</p>
-        </div>
-    </div>
-
-    <div class="box flex-align">
-        <div class="border">
-            <h4>Mars</h4>
-        </div>
-        <div>
-            <h3>Dîmes et offrandes </h3>
-            <p>Si vous souhaitez donner vos dîmes et offrandes, rendez-vous sur le lien suivant <a href="https://www.lepotcommun.fr/pot/axdgw8ut" target="_blank" alt="le pot commun de ceev">Le Pot Commun de Ceev</a>
+            <h3>
+            Culte en Ligne
+            
+            </h3>
+            <p>
+                
+            Rendez-vous dimanche prochain à 11h sur notre page Youtube et Facebook
+            </p>
         </div>
     </div>
 
 
+    <div class="box annonce titre-anonce">
+
+        <div>
+            <h4>
+            TEMPS D'INTERCESSION SPÉCIAL CONFINEMENT
+            
+            </h4>
+
+        </div>
+    </div>
+
+
+    <div class="box flex-align annonce">
+        <div class="border">
+            <h4>
+            1er au 21 avril
+
+            </h4>
+        </div>
+        <div>
+            <h3>
+            BORDEAUX POUR CHRIST
+            </h3>
+            <p>
+            21 jours de jeûne et prières pour un réveil à Bordeaux 
+            
+            </p>
+        </div>
+    </div>
+
+
+    <div class="box flex-align annonce">
+        <div class="border">
+            <h4>
+            Tous les soirs
+
+            </h4>
+        </div>
+        <div>
+            <h3>
+            RJEC - INTERCESSION
+            
+            </h3>
+            <p>
+            de 00h à 01h du matin.
+            
+            </p>
+        </div>
+    </div>
+
+
+    <div class="box flex-align annonce">
+        <div class="border">
+            <h4>
+               
+            Tous les jeudis
+            </h4>
+        </div>
+        <div>
+            <h3>
+            HOMMES DE PERCÉES - INTERCESSION
+            
+            </h3>
+            <p>
+            Tous les jeudis de 22h00 à 23h30 sur zoom.
+            
+            </p>
+        </div>
+    </div>
+
+    <div class="box flex-align annonce">
+        <div class="border">
+            <h4>
+            Tous les vendredis 
+
+            </h4>
+        </div>
+        <div>
+            <h3>
+            CEEV FMD - INTERCESSION 
+            
+            </h3>
+            <p>
+            Tous les vendredis de 22h à 23h30,
+            
+            </p>
+        </div>
+    </div>
+
+
+    

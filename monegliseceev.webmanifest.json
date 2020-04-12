@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "Bienvenue sur Votre ÉgliseCeev.Net, la où le Dieu d'amour transforme la tristesse en joie ! Retrouvez toute l'actualité de votre ÉgliseCeev en quelque clic. À bientôt pour notre prochain live.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/icon/ceevnet192-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "MonÉgliseCeev.Net",
+  "short_name": "Ceev",
+  "start_url": "/index.php"
+}
